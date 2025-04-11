@@ -1,0 +1,91 @@
+nav {
+  background-color: #171d25;
+  height: 104px;
+  .nav_logo {
+    img {
+      height: 44px;
+      width: 174px;
+    }
+  }
+  .nav_menu {
+    ul {
+      li {
+        a {
+          font-size: 16px;
+          font-weight: 500;
+          font-family: $notosans_font;
+          text-transform: uppercase;
+          color: #dcdedf !important;
+          &.active {
+            color: #1a9fff !important;
+            position: relative;
+            &::after {
+              position: absolute;
+              content: "";
+              height: 3px;
+              width: 100%;
+              display: block;
+              background-color: #1a9fff;
+              border-radius: 3px;
+              left: 0;
+              bottom: 0;
+              -webkit-border-radius: 3px;
+              -moz-border-radius: 3px;
+              -ms-border-radius: 3px;
+              -o-border-radius: 3px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .nav_user {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: -70px;
+    .install_btn {
+      a {
+        padding: 3px 9px 3px 35px;
+        font-size: 11px;
+        font-weight: normal;
+        color: #b8b6b4;
+        background-position: 10px 4px;
+        background-image: url(https://store.fastly.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1);
+
+        background-repeat: no-repeat;
+        background-color: #5c7e10;
+        font-family: $notosans_font;
+        text-transform: capitalize;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover {
+          color: #fff;
+          background-color: #759f1c;
+        }
+      }
+    }
+    a {
+      color: #b8b6b4;
+      font-size: 11px;
+      font-family: $notosans_font;
+      font-weight: normal;
+      text-transform: lowercase;
+      transition: 0.5s;
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -ms-transition: 0.5s;
+      -o-transition: 0.5s;
+      &:hover {
+        color: #fff;
+      }
+    }
+    span {
+      color: #b8b6b4;
+      font-size: 11px;
+    }
+  }
+}
