@@ -1,0 +1,128 @@
+#feature {
+  position: relative;
+  padding: 150px 0 50px;
+  background-color: #1b2838;
+  .feature_side_menu {
+    position: fixed;
+    left: 12%;
+    z-index: 2;
+    .steam_gift_card {
+      margin-bottom: 25px;
+      img {
+        padding-bottom: 6px;
+      }
+      h5 {
+        color: #88bde9;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: $notosans_font;
+        text-transform: uppercase;
+        padding-bottom: 2px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 550;
+        font-family: $notosans_font;
+        color: #a4b3c4;
+        text-transform: capitalize;
+      }
+      &:hover h5,
+      &:hover p {
+        color: #dddddd;
+      }
+    }
+    .feature_side_menus {
+      .inner_body {
+        margin-bottom: 20px;
+        h5 {
+          color: #536f86;
+          font-size: 20px;
+          font-weight: bolder;
+          font-family: $notosans_font;
+          text-transform: uppercase;
+          padding-bottom: 10px;
+        }
+        ul {
+          padding: 0;
+          li {
+            a {
+              font-size: 16px;
+              color: #7a8b9d;
+              font-weight: 550;
+              font-family: $notosans_font;
+              padding: 2px 0;
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+  }
+  .feature_menu {
+    nav {
+      height: 49px;
+      background: linear-gradient(
+        90deg,
+        rgba(62, 103, 150, 0.919) 11.38%,
+        rgba(58, 120, 177, 0.8) 25.23%,
+        rgb(15, 33, 110) 100%
+      );
+      ul {
+        li {
+          padding: 0 15px;
+          a {
+            font-size: 13px;
+            font-weight: bold;
+            color: #d9dadd;
+
+            font-family: $opensans_font;
+            text-transform: capitalize;
+          }
+          &:hover {
+            background: linear-gradient(90deg, #1a62b5, #b3dfff00);
+          }
+        }
+      }
+    }
+    form {
+      input {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: $notosans_font;
+        background-color: #316282;
+        border: none;
+        margin-top: 1px;
+        &:hover {
+          border: 1px solid #4c9acc;
+        }
+      }
+    }
+  }
+  .feature_body {
+    padding: 40px 0;
+    .feature_body_head {
+      padding-bottom: 12px;
+      h2 {
+        font-size: 14px;
+        font-family: $notosans_font;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: #fff;
+      }
+    }
+    h5 {
+      font-size: 24px;
+      font-weight: 300;
+      font-family: $notosans_font;
+      color: #fff;
+      padding-bottom: 4px;
+    }
+  }
+  .feature_bottom {
+    padding: 40px 0;
+    img:hover {
+      box-shadow: 0 0 10px #66c0f4;
+    }
+  }
+}

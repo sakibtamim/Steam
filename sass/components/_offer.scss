@@ -1,0 +1,188 @@
+#offer {
+  padding: 0 0 50px;
+  background-color: #1b2838;
+  .offer_head {
+    padding-bottom: 10px;
+    h3 {
+      font-size: 18px;
+      font-weight: normal;
+      font-family: $notosans_font;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    a {
+      padding: 0 15px;
+      font-size: 14px;
+      color: #fff;
+      text-transform: uppercase;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 2px;
+      font-family: $notosans_font;
+      font-weight: normal;
+    }
+  }
+  .offer_body {
+    .carousel-indicators {
+      position: absolute;
+      right: 0;
+      bottom: -50px;
+      left: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin-right: 15%;
+      margin-bottom: 1rem;
+      margin-left: 15%;
+    }
+    a {
+      display: block;
+    }
+    .extra_offer_body {
+      .card {
+        border: 1px solid rgba(0, 0, 0, 0.633);
+        background-color: transparent;
+        .card-body {
+          h5 {
+            font-size: 14px;
+            font-weight: normal;
+            font-family: $notosans_font;
+            color: #fff;
+            padding-bottom: 10px;
+            text-transform: uppercase;
+            margin: 0;
+          }
+          p {
+            font-size: 12px;
+            font-weight: normal;
+            font-family: $notosans_font;
+            color: #acdbf5;
+            margin: 0;
+            padding-bottom: 6px;
+          }
+          .deal_price {
+            padding: 16px;
+            .col-lg-3 {
+              padding: 0;
+            }
+            .discount {
+              background-color: #4c6b22;
+              height: 40px;
+              padding: 0 5px;
+              h6 {
+                font-size: 26px;
+                font-weight: 500;
+                font-family: $notosans_font;
+                color: #beee11;
+                line-height: 40px;
+              }
+            }
+            .discount_price {
+              background-color: #344654;
+              height: 40px;
+              padding-right: 5px;
+              span {
+                position: relative;
+                font-size: 11px;
+                color: #738895;
+                font-weight: 300;
+                font-family: $notosans_font;
+                &::after {
+                  position: absolute;
+                  content: "";
+                  left: 0;
+                  right: 0;
+                  top: 43%;
+                  border-bottom: 1.5px solid #738895;
+                  transform: skewY(-8deg);
+                  -webkit-transform: skewY(-8deg);
+                  -moz-transform: skewY(-8deg);
+                  -ms-transform: skewY(-8deg);
+                  -o-transform: skewY(-8deg);
+                  box-shadow: 0 0 2px black;
+                }
+              }
+              p {
+                font-size: 15px;
+                color: #beee11;
+                font-weight: 300;
+                font-family: $notosans_font;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .extra_offer {
+      .card {
+        border: 1px solid rgba(0, 0, 0, 0.633);
+
+        background: linear-gradient(to bottom, #ffffff 5%, #abdaf4 95%);
+        .card-body {
+          padding: 8px;
+          .today_deal {
+            p {
+              font-size: 14px;
+              color: #283846;
+              font-family: $opensans_font;
+              font-weight: normal;
+            }
+          }
+          .deal_price {
+            padding: 0 16px 0;
+            .col-lg-6 {
+              padding: 0;
+            }
+            .discount {
+              background-color: #4c6b22;
+              height: 40px;
+              padding: 0 5px;
+              h6 {
+                font-size: 26px;
+                font-weight: 500;
+                font-family: $opensans_font;
+                color: #beee11;
+                line-height: 40px;
+              }
+            }
+            .discount_price {
+              background-color: #344654;
+              height: 40px;
+              padding-right: 5px;
+              span {
+                position: relative;
+                font-size: 11px;
+                color: #738895;
+                font-weight: 300;
+                font-family: $opensans_font;
+                &::after {
+                  position: absolute;
+                  content: "";
+                  left: 0;
+                  right: 0;
+                  top: 43%;
+                  border-bottom: 1.5px solid #738895;
+                  transform: skewY(-8deg);
+                  -webkit-transform: skewY(-8deg);
+                  -moz-transform: skewY(-8deg);
+                  -ms-transform: skewY(-8deg);
+                  -o-transform: skewY(-8deg);
+                  box-shadow: 0 0 2px black;
+                }
+              }
+              p {
+                font-size: 15px;
+                color: #beee11;
+                font-weight: 300;
+                font-family: $notosans_font;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
