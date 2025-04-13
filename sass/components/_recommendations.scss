@@ -1,0 +1,44 @@
+#recommendations {
+  padding: 20px 0;
+  background-color: #000;
+  .recommendations_head {
+    p {
+      font-size: 12px;
+      font-family: $opensans_font;
+      color: #c6d4df;
+      font-weight: normal;
+    }
+  }
+  .recommendations_main {
+    padding-top: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $notosans_font;
+      color: #8f98a0;
+    }
+    .user_signin {
+      padding-bottom: 20px;
+      a {
+        font-size: 16px;
+        font-weight: normal;
+        font-family: $notosans_font;
+        color: #d2e885;
+        background: linear-gradient(to bottom, #a4d007 5%, #536904 95%);
+        padding: 6px 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+      }
+    }
+    a {
+      color: #fff;
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $notosans_font;
+    }
+  }
+}

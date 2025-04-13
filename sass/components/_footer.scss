@@ -1,0 +1,36 @@
+#footer {
+  padding: 16px 0 60px;
+  background-color: #171a21;
+  .footer_body {
+    padding: 9px 0 14px;
+    border-top: 1px solid #363c44;
+    border-bottom: 1px solid #363c44;
+    img {
+      height: 25px;
+      width: auto;
+    }
+    p {
+      font-size: 16px;
+      color: #8f98a0;
+      font-family: $opensans_font;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+    a {
+      color: #c6d4df;
+      text-transform: capitalize;
+    }
+  }
+  .footer_bottom {
+    padding: 20px 10px 0 10px;
+    a {
+      font-size: 16px;
+      font-family: $durusans_font;
+      font-weight: normal;
+      color: #c6d4df;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

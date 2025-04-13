@@ -52,6 +52,9 @@
               font-family: $notosans_font;
               padding: 2px 0;
               text-transform: capitalize;
+              &:hover {
+                color: #66c0f4;
+              }
             }
           }
         }

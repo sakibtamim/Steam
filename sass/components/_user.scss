@@ -1,0 +1,36 @@
+#user {
+  padding-bottom: 130px;
+  background-color: #1b2838;
+  .user_main {
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    p {
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $notosans_font;
+      color: #8f98a0;
+    }
+    .user_signin {
+      padding-bottom: 20px;
+      a {
+        font-size: 16px;
+        font-weight: normal;
+        font-family: $notosans_font;
+        color: #d2e885;
+        background: linear-gradient(to bottom, #a4d007 5%, #536904 95%);
+        padding: 6px 16px;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+      }
+    }
+    a {
+      color: #fff;
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $notosans_font;
+    }
+  }
+}

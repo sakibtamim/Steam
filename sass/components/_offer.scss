@@ -35,6 +35,10 @@
       margin-bottom: 1rem;
       margin-left: 15%;
     }
+    .carousel-indicators [data-bs-target] {
+      width: 15px;
+      height: 9px;
+    }
     a {
       display: block;
     }
